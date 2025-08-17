@@ -8,13 +8,13 @@ content-type: application/json
 }
 
 ### Find a particular user with a given ID
-GET http://localhost:3000/auth/1
+GET http://localhost:3000/auth/5
 
 ### Find a particular user with a given email
 GET http://localhost:3000/auth?email=assswwqd@kadsa.com
 
 ### Update a user
-PATCH http://localhost:3000/auth/411
+PATCH http://localhost:3000/auth/5
 content-type: application/json
 
 {
