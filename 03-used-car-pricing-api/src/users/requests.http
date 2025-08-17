@@ -1,0 +1,26 @@
+### Create a new user
+POST http://localhost:3000/auth/signup
+content-type: application/json
+
+{
+    "email": "assswwqd@kadsa.com",
+    "password": "12ss345678"
+}
+
+### Find a particular user with a given ID
+GET http://localhost:3000/auth/1
+
+### Find a particular user with a given email
+GET http://localhost:3000/auth?email=assswwqd@kadsa.com
+
+### Update a user
+PATCH http://localhost:3000/auth/411
+content-type: application/json
+
+{
+    "email":"bbbbbb@aaaaa.com",
+    "password":"123456wwww78"
+}
+
+### Delete a user with a give ID
+DELETE http://localhost:3000/auth/32313
